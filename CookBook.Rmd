@@ -1,0 +1,93 @@
+---
+title: "Codebook for tidy_data.txt data set"
+vignette: >
+  %\VignetteEncoding{UTF-8 
+---
+
+###Description
+This data describes the mean of triaxial accelerations, angular velocities, and magnitudes measured from the accelerometers from a Samsung Galaxy S smartphone. Measurements appear either in time or frequency domain, denoted with a preceeding t(=time domain) or f(=frequency domain). Axial components of the measurements are denoted with a succeeding "X","Y", or "Z".Labels are descriptive so detailed explanation per variable is not necessary. Accelerations are measured in [g] = m/s^2), velocities are measured in rad/s. 
+
+###Format
+  A data frame with 180 observations on the following 68 variables.
+  
+###Description of Variables
+    • testSubjectID: a numeric vector describing the test subjects ID. Values from 1-30
+    • activity: a character vector, describing the 6 possible activity levels of the subject: 
+
+                • Walking 
+                • Walking Upstairs 
+                • Walking Downstairs 
+                • Sitting 
+                • Standing 
+                • Laying 
+        
+    • tBodyAccelerationMeanX: a numeric vector 
+    • tBodyAccelerationMeanY: a numeric vector 
+    • tBodyAccelerationMeanZ: a numeric vector 
+    • tGravityAccelerationMeanX: a numeric vector 
+    • tGravityAccelerationMeanY: a numeric vector 
+    • tGravityAccelerationMeanZ: a numeric vector 
+    • tBodyAccelerationJerkMeanX: a numeric vector 
+    • tBodyAccelerationJerkMeanY: a numeric vector 
+    • tBodyAccelerationJerkMeanZ: a numeric vector 
+    • tBodyAngularVelocityMeanX: a numeric vector 
+    • tBodyAngularVelocityMeanY: a numeric vector 
+    • tBodyAngularVelocityMeanZ: a numeric vector 
+    • tBodyAngularVelocityJerkMeanX: a numeric vector 
+    • tBodyAngularVelocityJerkMeanY: a numeric vector 
+    • tBodyAngularVelocityJerkMeanZ: a numeric vector 
+    • tBodyAccelerationMagnitudeMean: a numeric vector 
+    • tGravityAccelerationMagnitudeMean: a numeric vector 
+    • tBodyAccelerationJerkMagnitudeMean: a numeric vector 
+    • tBodyAngularVelocityMagnitudeMean: a numeric vector 
+    • tBodyAngularVelocityJerkMagnitudeMean: a numeric vector 
+    • fBodyAccelerationMeanX: a numeric vector 
+    • fBodyAccelerationMeanY: a numeric vector 
+    • fBodyAccelerationMeanZ: a numeric vector 
+    • fBodyAccelerationJerkMeanX: a numeric vector 
+    • fBodyAccelerationJerkMeanY: a numeric vector 
+    • fBodyAccelerationJerkMeanZ: a numeric vector 
+    • fBodyAngularVelocityMeanX: a numeric vector 
+    • fBodyAngularVelocityMeanY: a numeric vector 
+    • fBodyAngularVelocityMeanZ: a numeric vector 
+    • fBodyAccelerationMagnitudeMean: a numeric vector 
+    • fBodyAccelerationJerkMagnitudeMean: a numeric vector 
+    • fBodyAngularVelocityMagnitudeMean: a numeric vector 
+    • fBodyAngularVelocityJerkMagnitudeMean: a numeric vector 
+    • tBodyAccelerationStdDeviationX: a numeric vector 
+    • tBodyAccelerationStdDeviationY: a numeric vector 
+    • tBodyAccelerationStdDeviationZ: a numeric vector 
+    • tGravityAccelerationStdDeviationX: a numeric vector 
+    • tGravityAccelerationStdDeviationY: a numeric vector 
+    • tGravityAccelerationStdDeviationZ: a numeric vector 
+    • tBodyAccelerationJerkStdDeviationX: a numeric vector 
+    • tBodyAccelerationJerkStdDeviationY: a numeric vector 
+    • tBodyAccelerationJerkStdDeviationZ: a numeric vector 
+    • tBodyAngularVelocityStdDeviationX: a numeric vector 
+    • tBodyAngularVelocityStdDeviationY: a numeric vector 
+    • tBodyAngularVelocityStdDeviationZ: a numeric vector 
+    • tBodyAngularVelocityJerkStdDeviationX: a numeric vector 
+    • tBodyAngularVelocityJerkStdDeviationY: a numeric vector 
+    • tBodyAngularVelocityJerkStdDeviationZ: a numeric vector 
+    • tBodyAccelerationMagnitudeStdDeviation: a numeric vector 
+    • tGravityAccelerationMagnitudeStdDeviation: a numeric vector 
+    • tBodyAccelerationJerkMagnitudeStdDeviation: a numeric vector 
+    • tBodyAngularVelocityMagnitudeStdDeviation: a numeric vector 
+    • tBodyAngularVelocityJerkMagnitudeStdDeviation: a numeric vector 
+    • fBodyAccelerationStdDeviationX: a numeric vector 
+    • fBodyAccelerationStdDeviationY: a numeric vector 
+    • fBodyAccelerationStdDeviationZ: a numeric vector 
+    • fBodyAccelerationJerkStdDeviationX: a numeric vector 
+    • fBodyAccelerationJerkStdDeviationY: a numeric vector 
+    • fBodyAccelerationJerkStdDeviationZ: a numeric vector 
+    • fBodyAngularVelocityStdDeviationX: a numeric vector 
+    • fBodyAngularVelocityStdDeviationY: a numeric vector 
+    • fBodyAngularVelocityStdDeviationZ: a numeric vector 
+    • fBodyAccelerationMagnitudeStdDeviation: a numeric vector 
+    • fBodyAccelerationJerkMagnitudeStdDeviation: a numeric vector 
+    • fBodyAngularVelocityMagnitudeStdDeviation: a numeric vector 
+    • fBodyAngularVelocityJerkMagnitudeStdDeviation: a numeric vector 
+
+###Examples
+The variable "fBodyAccelerationMeanX" describes the average of the mean body acceleration along the x-axis in frequency domain.
+
